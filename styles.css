@@ -1,0 +1,28 @@
+/*
+* Name : Aodhan Bower
+* Date : 11/7/2023
+* 
+* This is the CSS file to implement the styling for a website that 
+* takes in a color in one of several formats and changes the page to that color
+* as well as displaying the name of the color
+*/
+
+
+#box-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+#entry-box {
+  justify-self: center;
+  align-self: center;
+}
+
+#button {
+  height: 1.5rem;
+  margin-left: 2px;
+  justify-self: center;
+  align-self: center;
+}

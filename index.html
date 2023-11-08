@@ -1,0 +1,31 @@
+<!--
+* Name : Aodhan Bower
+* Date : 11/7/2023
+* 
+* This is the HTML file to implement the UI for a website that 
+* takes in a color in one of several formats and changes the page to that color
+* as well as displaying the name of the color
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AD320_CP3</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="box-container">
+      <div style="display: block">
+        <h2>Enter RGB, Hex, or HSL color</h2>
+        <div>
+          <input id="entry-box" type="text" placeholder="Enter text here" />
+          <button id="button">Change Color</button>
+        </div>
+        <div id="color-container">
+          <p id="color-result"></p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
